@@ -79,6 +79,7 @@ class MoviesSeeder extends Seeder
 
             $actor_movie = $actors->movies()->attach($movies->id);
             
+            echo "labas";
 
 
   
